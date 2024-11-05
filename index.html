@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pozdrawiamy z klasy 4J</title>
+    <style>
+        /* Ustawienia dla całej strony */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            color: white; /* Kolor tekstu */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Wysokość ekranu */
+            text-align: center;
+            overflow: hidden; /* Zapobiega przewijaniu ekranu */
+            animation: rainbow 10s infinite linear; /* Animacja gradientu */
+            background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
+            background-size: 400% 400%; /* Powiększenie gradientu, by był płynny */
+        }
+
+        /* Animacja dla gradientu tęczowego */
+        @keyframes rainbow {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        /* Styl dla napisu */
+        h1 {
+            font-size: 3rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Pozdrawiamy z klasy 4J!</h1>
+    </div>
+</body>
+</html>
